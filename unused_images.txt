@@ -1,0 +1,5 @@
+home_page.webp
+mnemonics.webp
+navbar.webp
+ordinary_word.webp
+story_part.webp

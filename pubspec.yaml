@@ -1,0 +1,59 @@
+name: flutter_application_1
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI va Matn
+  auto_size_text: ^3.0.0
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.2
+  
+  # Backend va Auth
+  supabase_flutter: ^2.12.0
+  google_sign_in: ^7.2.0
+  
+  # Funksionallik
+  flutter_tts: ^3.8.2
+  url_launcher: ^6.2.5
+  device_info_plus: ^12.3.0
+  uuid: ^4.5.2
+  shared_preferences: ^2.5.3
+  flutter_launcher_icons: ^0.14.4
+  path_provider: ^2.1.4
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_native_splash: ^2.4.0
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash.png
+  android_12:
+    image: assets/splash.png
+    icon_background_color: "#FFFFFF"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web: true
+  image_path: "assets/icons/uplift.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/list.json
+    - assets/dictionary.json
+    - assets/irregular_forms.json
+    - assets/irregular_verbs.json
+    - assets/icons/
+    - images/

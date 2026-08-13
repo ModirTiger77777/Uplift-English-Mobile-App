@@ -1,0 +1,2 @@
+[functions.payme]
+verify_jwt = false

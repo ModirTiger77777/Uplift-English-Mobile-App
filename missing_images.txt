@@ -1,0 +1,4 @@
+images/friend.jpg
+images/he.jfif
+images/she.jfif
+images/warm.jpg
